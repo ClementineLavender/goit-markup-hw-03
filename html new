@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"  
-    /> 
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -211,3 +211,62 @@
     </footer>
   </body>
 </html>
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.portfolio-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.portfolio-item {
+  flex-basis: calc((100% / 3) - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-text-wrap {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.project-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  margin-top: 0;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+}
