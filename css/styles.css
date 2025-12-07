@@ -242,7 +242,7 @@ address {
   text-transform: uppercase;
   vertical-align: middle;
   text-decoration: none;
-  color: #404bbf;
+  color: #4d5ae5;
 }
 .logo-light {
   color: #f4f4fd;
@@ -250,7 +250,7 @@ address {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
