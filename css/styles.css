@@ -4,7 +4,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  font-style: normal;
   color: #434455;
   background-color: #ffffff;
 }
@@ -64,7 +63,7 @@ address {
   text-transform: uppercase;
   vertical-align: middle;
   text-decoration: none;
-  color: #404bbf;
+  color: #4d5ae5;
 }
 .logo-dark {
   color: #2e2f42;
@@ -89,7 +88,7 @@ address {
   color: #404bbf;
 }
 
-.nav-list-link .current {
+.nav-list-link.current {
   color: #404bbf;
 }
 
@@ -127,7 +126,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
@@ -233,16 +231,7 @@ address {
   background-color: #2e2f42;
 }
 .footer.logo {
-  font-family: "Ralewey", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  vertical-align: middle;
-  text-decoration: none;
-  color: #4d5ae5;
+margin-bottom: 16px;
 }
 .logo-light {
   color: #f4f4fd;
@@ -250,7 +239,7 @@ address {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
