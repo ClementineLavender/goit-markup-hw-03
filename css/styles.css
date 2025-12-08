@@ -19,9 +19,6 @@ p {
 ul {
   list-style-type: none;
 }
-img {
-  display: block;
-}
 
 a {
   color: currentColor;
@@ -161,14 +158,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-.team-list {
-}
-.team-item {
-}
-.team-avatar {
-}
-.team-content {
 }
 
 .team-member-name {
