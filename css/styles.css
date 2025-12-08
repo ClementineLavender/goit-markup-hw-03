@@ -83,7 +83,7 @@ address {
 }
 
 .nav-address-link:hover,
-.nav-list-link:focus {
+.nav-address-link:focus {
   color: #404bbf;
 }
 
@@ -135,6 +135,12 @@ address {
 }
 /* team-section */
 
+.team-title-main {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
 .team-section {
   background-color: #f4f4fd;
 }
@@ -149,6 +155,7 @@ address {
 
 .team-item {
   background-color: #ffffff;
+  text-align: center;
 }
 
 .team-text {
@@ -157,11 +164,14 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* section 4 */
 .portfolio-title {
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-.container {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .project-title {
@@ -172,8 +182,6 @@ address {
   color: #2e2f42;
 }
 .project-category {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
