@@ -79,24 +79,13 @@ address {
 
 .nav-address-link {
   letter-spacing: 0.02em;
+  color: #434455;
+}
+.nav-address-link:hover,
+.nav-address-link:focus {
+  color: #404bbf;
 }
 
-.nav-address-email {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.nav-address-email:hover,
-.nav-address-email:focus {
-  color: #404bbf;
-}
-.nav-address-tel {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.nav-address-tel:hover,
-.nav-address-tel:focus {
-  color: #404bbf;
-}
 .page-header .logo {
 }
 
