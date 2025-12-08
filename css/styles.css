@@ -15,14 +15,9 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 ul {
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
 }
 img {
   display: block;
@@ -39,17 +34,6 @@ button {
 }
 address {
   font-style: normal;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
 }
 
 /* Header */
@@ -71,7 +55,6 @@ address {
 }
 
 .footer .logo {
-  margin-bottom: 16px;
 }
 [href="./index.html"] {
   color: #2e2f42;
@@ -91,7 +74,6 @@ address {
 .nav-list-link {
   color: #2e2f42;
 }
-
 
 .nav-list-link .current {
   color: #404bbf;
@@ -117,7 +99,6 @@ address {
   color: #404bbf;
 }
 .page-header .logo {
-  margin-right: 76px;
 }
 
 /*------- Hero---------- */
@@ -146,7 +127,9 @@ address {
   background-color: #404bbf;
 }
 /* -----------features-section---------------- */
-
+.visually-hidden {
+  color: #ffffff;
+}
 .features-section {
   background-color: #ffffff;
 }
@@ -209,14 +192,6 @@ address {
 .container {
 }
 
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-picture {
-}
-.portfolio-text-wrap {
-}
 .project-title {
   font-weight: 500;
   font-size: 20px;
@@ -236,9 +211,19 @@ address {
 .footer {
   background-color: #2e2f42;
 }
-.footer.logo {
-margin-bottom: 16px;
+
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #4d5ae5;
 }
+
 .logo-light {
   color: #f4f4fd;
 }
@@ -248,7 +233,4 @@ margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-header a {
 }
