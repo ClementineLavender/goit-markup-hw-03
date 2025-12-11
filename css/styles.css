@@ -95,6 +95,7 @@ img {
 
 /****** container :default *******/
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -121,7 +122,6 @@ img {
 .nav-list-item {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .page-header {
@@ -132,8 +132,8 @@ img {
 
 .nav-address {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
-  margin-right: 0 auto;
 }
 .nav-address-item {
   display: flex;
