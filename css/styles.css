@@ -92,11 +92,7 @@ address {
 }
 
 /* !!!!!!!!!!!!!!!11.12 !!!!!!!!!!!!!!!!!!!!!*/
-.nav {
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-}
+
 /****** container :default *******/
 .container {
   width: 1158px;
@@ -107,11 +103,24 @@ address {
 .page-header > .container {
   display: flex;
 }
+.header-nav {
+}
+.nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
 
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  margin-right: 76px;
+}
+
+.nav-list-item {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .page-header {
@@ -124,7 +133,9 @@ address {
   display: flex;
   gap: 40px;
 }
-
+.nav-address-item {
+  display: flex;
+}
 /*------- Hero---------- */
 .hero-section {
   background-color: #2e2f42;
