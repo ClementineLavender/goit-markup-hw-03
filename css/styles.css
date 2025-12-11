@@ -34,6 +34,9 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
 /* Header */
 /* region Logo */
 
@@ -50,6 +53,7 @@ address {
 }
 .logo-dark {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .footer .logo {
@@ -93,10 +97,15 @@ address {
   flex-grow: 1;
   align-items: center;
 }
+/****** container :default *******/
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .page-header > .container {
   display: flex;
-  max-width: 1440px;
 }
 
 .nav-list {
@@ -107,7 +116,7 @@ address {
 
 .page-header {
   display: flex;
-  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
   align-items: center;
 }
 
