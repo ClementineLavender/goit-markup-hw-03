@@ -19,6 +19,8 @@ p {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -125,7 +127,7 @@ img {
 
 .nav-address {
   display: flex;
-  padding: 24px 0;
+
   gap: 40px;
 }
 .nav-address-item {
@@ -230,10 +232,7 @@ img {
 .team-section {
   background-color: #f4f4fd;
 }
-.team-title-main {
-  margin-bottom: 72px;
-  text-align: center;
-}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -245,6 +244,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+}
+
+.team-container {
+  display: block;
 }
 
 .team-item {
