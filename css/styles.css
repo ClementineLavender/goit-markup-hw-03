@@ -96,7 +96,7 @@ img {
   padding: 0 15px;
 }
 
-.header-nav > .container {
+.header-nav {
   display: flex;
 }
 
