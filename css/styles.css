@@ -120,7 +120,7 @@ img {
 }
 
 .nav-list-item {
-  display: flex;
+  display: block;
   gap: 40px;
   padding: 24px 0;
 }
@@ -137,7 +137,7 @@ img {
   gap: 40px;
 }
 .nav-address-item {
-  display: flex;
+  display: block;
   padding: 24px 0;
 }
 /*------- Hero---------- */
