@@ -96,11 +96,10 @@ img {
   padding: 0 15px;
 }
 
-.header-nav .container {
+.header-nav > .container {
   display: flex;
 }
-.header-nav {
-}
+
 .nav {
   display: flex;
   flex-grow: 1;
