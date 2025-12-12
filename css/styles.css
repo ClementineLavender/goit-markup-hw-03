@@ -322,6 +322,7 @@ img {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer .logo {
@@ -330,19 +331,17 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: inline-block;
   text-transform: uppercase;
   vertical-align: middle;
   text-decoration: none;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-light {
   color: #f4f4fd;
 }
-.footer {
-  padding: 100px 0;
-}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
