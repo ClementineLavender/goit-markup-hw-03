@@ -184,7 +184,6 @@ img {
 .features-section {
   background-color: #ffffff;
   padding: 120px 0;
-  width: calc((100% - 72px) / 4);
 }
 .features-list {
   display: flex;
