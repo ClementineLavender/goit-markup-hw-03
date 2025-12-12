@@ -335,9 +335,15 @@ img {
   text-decoration: none;
   color: #4d5ae5;
 }
-
+.logo .logo-light {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-light {
   color: #f4f4fd;
+}
+.footer {
+  padding: 100px 0;
 }
 .footer-text {
   font-weight: 400;
@@ -345,4 +351,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
